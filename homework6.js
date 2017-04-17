@@ -62,7 +62,7 @@ renderButtons();
         // (this is necessary otherwise we will have repeat buttons)
 			$('#GIFArea').empty(); 
 	        var b = $(this).attr('data-name');		// 'this' refers to the button that was clicked
-	        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + b + "&api_key=dc6zaTOxFJmzC&limit=12";  //query api url and public key
+	        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + b + "&api_key=dc6zaTOxFJmzC&limit=12";  //query api url and public key
 	        console.log(queryURL); 
 
 	        //standard ajax call to get request
