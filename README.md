@@ -4,7 +4,6 @@
 </p>
 
 <p> <h1> Link to Github Deployment</h1>
-<br>
 https://mattfalcon.github.io/GifTastic/
 <br>
 </p>
